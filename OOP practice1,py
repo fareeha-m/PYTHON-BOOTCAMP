@@ -1,0 +1,15 @@
+#Animal sounds
+
+class Dog:
+    def __init__(self, sound, age):
+        self.sound = sound
+        self.age = age
+
+    def years(self):
+        print (f"The dogs {self.age} is years old")
+
+    
+c1 = Dog("bark", 3)
+c1.years()
+
+
